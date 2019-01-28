@@ -1,24 +1,54 @@
 <!doctype html>
 <html>
 <head>
-  <title>WEB - HTML</title>
-  <meta charset="utf-8">
+<title>WEB - HTML</title>
+<meta charset="utf-8">
+<style>
+  table, th, td {
+    border: 1px solid #66ffff;
+  }
+</style>
 </head>
 <body>
-  <h3><a href="index.html">WEB</a></h3>
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-    <li><a href="test.html">admin</a></li>
-  </ol>
+  <h1><a href="index.html">WEB</a></h1>
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+      <li><a href="test.html">survey</a></li>
+    </ol>
 <br>
-<h2>설문지</h2>
-<b>123</b>
-<br>
-<pre>123 123 123   123           123</pre>
-<br>
-<span style="margin-left:2em">Margin of 2em</span><br>
-<span style="margin-left:3em">Margin of 3em</span><br>
-<span style="margin-left:4em">Margin of 4em</span>
-<input type="checkbox">
+  <h2>설문지</h2>
+<table>
+    <th>질문</th>
+    <th>전혀중요하지않음</th>
+    <th>중요하지않음</th>
+    <th>보통이다</th>
+    <th>중요함</th>
+    <th>매우중요함</th>
+  <tr>
+    <div class="form-field">
+      <td>더러운 쓰레기를 만진 후 손 씻기</td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+      <td><input type="checkbox"></td>
+    </div>
+  </tr>
+  <tr>
+    <td>국민은 의무적으로 세금을 내야 함</td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>가정에서 전기 사용량을 줄이기</td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+</table>
